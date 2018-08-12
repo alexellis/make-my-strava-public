@@ -1,7 +1,7 @@
 make-my-strava-public
 ===============================
 
-This tool can make your Strava data public for a given period of time. There are several reasons why you may want to do this including the ability to appear on leader boards and to share data with friends. Some import services also only import your data as private. Strava has "enhanced" privacy features which you can turn on and the ability to set a privacy zone so you can have private / off-the-map areas like your home or work.
+This tool can make your Strava data public for a given date range. There are several reasons why you may want to do this including the ability to appear on leader boards and to share data with friends. Some import services also only import your data as private. Strava has "enhanced" privacy features which you can turn on and the ability to set a privacy zone so you can have private / off-the-map areas like your home or work.
 
 ## What else could this code do?
 
