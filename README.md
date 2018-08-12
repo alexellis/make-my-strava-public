@@ -16,15 +16,23 @@ This code could be adapted easily to do whatever you like. There are additional 
 
 ### Get an OAuth token
 
-You should set up your Strava app on your profile settings. Get your `access_token` value and save it in a JSON file like the following:
+> Note: You do not need to setup an endpoint or server to listen to this app, we will just use it to authenticate into our own account to edit data.
+
+You should set up your Strava app on your profile settings.
+
+* Click My Profile
+* Click My API Application
+* Upload any icon for the App, this is mandatory
+* For *Website* enter http://localhost
+* For *Authorization Callback Domain* enter http://localhost
+
+Find the value for *Your Access Token* and save it in a JSON file like the following:
 
 ```json
 {"access_token": "TOKEN_VALUE"}
 ```
 
 Save the token as `./tokens/username_token.json`
-
-You do not need to setup an endpoint or server to listen to this app, we will just use it to authenticate into our own account to edit data.
 
 ### Install Ruby
 
